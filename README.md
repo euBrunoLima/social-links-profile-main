@@ -17,8 +17,8 @@
 
 <h1>Links</h1>
 <ul>
-   <li><a href="https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ" target="_blank">Desafio no Frontend Mentor</a></li>
-   <li><a href="https://www.frontendmentor.io/profile/euBrunoLima" target="_blank">Meu perfil no Frontend Mentor</a></li>
+   <li><a href="https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ" target="_blank" hel="external">Desafio no Frontend Mentor</a></li>
+   <li><a href="https://www.frontendmentor.io/profile/euBrunoLima" target="_blank" hel="external">Meu perfil no Frontend Mentor</a></li>
 </ul>
 
 
