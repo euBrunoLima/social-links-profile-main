@@ -1,0 +1,100 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: 0%;
+    font-family: 'Inter';
+}
+
+:root{
+    --background-color: hsl(0, 0%, 8%); /*cinza mais escuro*/
+    --corFundo-card:  hsl(0, 0%, 12%);
+    --corTextoCinza: hsl(0, 0%, 20%); 
+    
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color);
+    
+}
+main{
+    margin:10px;
+    max-width: 417px;
+    background-color: var(--corFundo-card);
+    border-radius: 1rem;
+    box-shadow: 1px 1px 10px  hsla(0, 0%, 20%, 0.235);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    
+}
+.card > figure{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.6rem;
+}
+
+figure > img{
+    max-width: 36%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px hsla(75, 94%, 57%, 0.563); ;
+}
+.informacao_perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+
+}
+.informacao_perfil > h1{
+    color: white;
+    font-weight: 700; 
+}
+.informacao_perfil > p{
+    color: hsl(75, 94%, 57%);
+    font-size: 0.69rem;
+    font-weight: 600;
+}
+span{
+    color: hsl(0, 0%, 75%);
+    font-size: 0.7rem;
+    font-weight: 500;
+    margin: 15px 0px 10px 0px;
+}
+
+ul > li{
+    padding: 10px;
+    border-radius: 0.5rem;
+    list-style: none;
+    margin: 15px auto;
+    cursor: pointer;
+    
+   /* estilos paras os nomes dos links */
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.68rem;
+    font-weight: 500;
+    color: white;
+    background-color:var(--corTextoCinza);
+}
+
+ul li:last-child{
+    margin-bottom: 0px;
+}
+
+li:hover{
+    background-color:hsla(75, 94%, 57%, 0.563);
+    box-shadow: 1.8px 1.8px 10px hsla(75, 94%, 57%, 0.563);
+    transition: all 0.3s;
+}
+
+
+
+
